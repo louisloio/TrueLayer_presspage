@@ -1,5 +1,7 @@
 body{
     color: #2d2d2d !important;
+    font-family: 'Inter' !important;
+    text-rendering: optimizeLegibility !important;
 }
 
 #hero{
@@ -108,7 +110,7 @@ footer{
     .nav-pills .nav-link {
         border-radius: 0 !important;
     }
-    .nav-link {
+    .category .nav-link {
         text-transform: uppercase;
         color: #44689A;
     }
