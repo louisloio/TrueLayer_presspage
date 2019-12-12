@@ -1,0 +1,210 @@
+body{
+    color: #2d2d2d !important;
+}
+
+#hero{
+    background: linear-gradient(135deg, #093554 0%,#058ed8 50%,#f4ebc9 100%);
+    min-height: 500px;
+}
+
+footer{
+    background: linear-gradient(135deg, #093554 0%,#058ed8 50%,#f4ebc9 100%);
+}
+
+.btn-white {
+    color: #44689A;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.animated_card p{
+    color: #aaaaaa;
+}
+
+/*---categories colours---*/
+    .cat-press{
+        color: #42448E;
+    }
+
+    .cat-insider{
+        color: #F7AB1B;
+    }
+
+    .cat-product{
+        color: #c00023;
+    }
+
+
+/*---Search field---*/
+    .has-search .form-control {
+        padding-left: 2.375rem;
+    }
+    .has-select .form-control {
+        padding-left: 2.375rem;
+    }
+
+    .has-search .form-control-icon {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #44689A;
+    }
+    .has-select .form-control-icon {
+        position: absolute;
+        right: 1rem;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #44689A;
+    }
+
+    .form-control-material{
+        color: #44689A !important;
+        background: rgba(68, 104, 154, .05);
+        border-bottom: 1px solid rgba(68, 104, 154, .4) !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-radius: 4px 4px 0 0 !important;
+    }
+
+    .form-control:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0rem #fff !important;
+        border-bottom:1px solid #F7AB1B !important;
+        transition: .3s !important;
+    }
+
+    /*---Search field placeholder---*/
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #44689A !important;
+            opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #44689A !important;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #44689A !important;
+        }
+
+
+/*---nav pills custo---*/
+    .nav-pills .nav-link {
+        border-radius: 0 !important;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        color: #44689A;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #44689A;
+        background-color: #fff !important;
+        border-bottom: 3px solid #F7AB1B;
+    }
+
+/*---wall card---*/
+    .featured-img{
+        width: 100%;
+        position: relative;
+        padding-top: 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1rem;
+        overflow: hidden;
+
+    }
+    .image_1{
+        background-image: url(../assets/img_articles/featured_img.png);
+    }
+
+    .image_2{
+        background-image: url(https://miro.medium.com/max/3200/1*gDuYdwxi6B9v-lLGJKb9yw.jpeg);
+    }
+
+    .image_3{
+        background-image: url(https://miro.medium.com/max/4002/1*ouKy0WEswNayvM3n1uC9Ew@2x.png);
+    }
+
+    .image_4{
+        background-image: url(https://miro.medium.com/max/8336/1*D1xVfjhmr7uWVcCY_RLpJg.jpeg);
+    }
+
+    .image_5{
+        background-image: url(https://miro.medium.com/max/4000/0*kaqWSyNqXE3y1lJo.png);
+    }
+
+    .image_6{
+        background-image: url(https://miro.medium.com/max/4000/1*G_KVKQtZNc6rqBkt-LyKGw.jpeg);
+    }
+
+    .image_7{
+        background-image: url(https://miro.medium.com/max/4002/1*1eM0G6B2RpSfXfFZB78pvg.png);
+    }
+
+
+    @media only screen and (min-width: 992px) {
+        .title-article{
+            max-height: 11rem;
+            overflow: hidden;
+        }
+    }
+
+    #pills-tabContent a {
+        color: inherit !important;
+    }
+
+    a{
+        text-decoration: inherit !important;
+    }
+
+    a:hover h3{
+        text-decoration: underline;
+    }
+
+    #pills-tabContent a:hover .featured-img{
+        transform: scale(1.01);
+        transition: ease-in-out .15s;
+        box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.05),
+        0px 10px 14px 1px rgba(0, 0, 0, 0.035),
+        0px 4px 18px 3px rgba(0, 0, 0, 0.03);
+    }
+
+/*---Animation---*/
+    .animated_icons{
+        animation-duration: 1.150s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .animated_top_landing{
+        animation-duration: .8s;
+        animation-delay: 0s;
+        
+    }
+
+    .animated_card{
+        animation-duration: .500s;
+        
+        
+    }
+
+

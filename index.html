@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style/test-truelayer.css">
+
+    <!-- Material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <section id="hero" class="mb-5">
+        <header class="animated_top_landing fadeInDown">
+            <nav class="navbar navbar-expand-lg navbar-light py-sm-5 py-4 container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html">
+                    <img src="assets/logo.svg" height="50" alt="logo TrueLayer">
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="material-icons text-white">
+                        menu
+                    </i>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+
+                    <!-- Navigation -->
+                    <ul class="navbar-nav ml-auto mt-lg-0 mt-3">
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarPublication" href="#">
+                                Publications
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarOurStory" href="#">
+                                Our story
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarBrandAssets" href="#">
+                                Brand assets
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Button -->
+                    <a class="navbar-btn btn btn-sm btn-outline-primary lift ml-lg-auto mr-lg-0 my-3 d-flex justify-content-center"
+                        href="#" target="_blank">
+                        Register
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </a>
+                    <a class="navbar-btn btn btn-sm btn-white lift ml-lg-3 mr-lg-0 my-3 d-flex justify-content-center"
+                        href="#" target="_blank">
+                        Log in
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </a>
+
+                </div>
+            </nav>
+        </header>
+        <div class="container px-4">
+            <div class="row">
+                <div class="col-md-6 pb-5 d-flex justify-content-center flex-column ">
+                    <h1 class="text-white animated_top_landing fadeInDown">Powering the new era of financial innovation.
+                    </h1>
+                    <p class="text-white mb-0 animated_top_landing fadeInDown">Follow the TrueLayer publications for
+                        product announcements, feature updates, company lifestyle, and press release.</p>
+                </div>
+                <div class="col-md-5 offset-1 mb-n5">
+                    <img class="animated_top_landing fadeInDown" src="assets/illu_page.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container px-4 pt-3">
+        <div class="row d-lg-flex animated fadeIn">
+            <div class="col-lg-7 order-lg-2 mb-md-5 mb-4">
+                <ul class="nav nav-pills d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item mx-sm-2 mx-sm-3 mx-2">
+                        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                            aria-controls="pills-all" aria-selected="true">All</a>
+                    </li>
+                    <li class="nav-item mx-sm-2 mx-sm-3 mx-2">
+                        <a class="nav-link" id="pills-press-tab" data-toggle="pill" href="#pills-press" role="tab"
+                            aria-controls="pills-press" aria-selected="false">Press</a>
+                    </li>
+                    <li class="nav-item mx-sm-2 mx-sm-3 mx-2">
+                        <a class="nav-link" id="pills-product-tab" data-toggle="pill" href="#pills-product" role="tab"
+                            aria-controls="pills-product" aria-selected="false">Product</a>
+                    </li>
+                    <li class="nav-item mx-sm-2 mx-sm-3 mx-2">
+                        <a class="nav-link" id="pills-insider-tab" data-toggle="pill" href="#pills-insider" role="tab"
+                            aria-controls="pills-insider" aria-selected="false">Insider</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 order-lg-1 mb-lg-5 mb-4">
+                <div class="form-group has-search">
+                    <span class="material-icons form-control-icon">search</span>
+                    <input type="text" class="form-control form-control-material" type="text" placeholder="Search"
+                        aria-label="Search">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 order-lg-3 mb-5">
+                <div class="form-group has-select">
+                    <span class="material-icons form-control-icon">arrow_drop_down</span>
+                    <select class="custom-select form-control-material" id="inputGroupSortBy">
+                        <option selected>Sort by</option>
+                        <option value="1">Date</option>
+                        <option value="2">Most view</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <a href="" id="article_link1" target="_blank">
+                    <div class="row mb-5 animated_card fadeIn">
+                        <div class="col-lg-7">
+                            <div class="featured-img mb-lg-0 mb-4 image_1" title="image featured last article">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 p-lg-4 d-flex justify-content-between flex-column">
+                            <div>
+                                <h6 class="cat-press">Press release</h6>
+                                <h3>UK challenger bank Tandem partners with financial API provider for account
+                                    aggregation.</h3>
+                                <p class="m-0">Nov 27, 2019</p>
+                                <p>Business insider</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/jessica_smith.jpg" alt="Jessica Smith"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Jessica Smith</span>
+                                </div>
+                                <i id="hidden_icon1"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="row mx-lg-n4">
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link2" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_2 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueHack #4 — Global Impact.</h3>
+                                <p class="m-0">Dec 11, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/cindy_lopez.jpeg" alt="Cindy Lopez"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Cindy Lopez</span>
+                                </div>
+                                <i id="hidden_icon2"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link3" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_3 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">What’s it like to be an Intern at TrueLayer?</h3>
+                                <p class="m-0">Dec 2, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/claire_johnson.jpeg" alt="Claire Johnson"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Claire Johnson</span>
+                                </div>
+                                <i id="hidden_icon3"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link4" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_4 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueLayer and Emma: Working together to power your Best
+                                    Financial Friend</h3>
+                                <p class="m-0">Nov 4, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/frank_simone.jpeg" alt="Frank Simone"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Frank Simone</span>
+                                </div>
+                                <i id="hidden_icon4"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link5" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_5 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-product">Product</h6>
+                                <h3 class="title-article">Say hello to our brand new Console!</h3>
+                                <p class="m-0">Sep 10, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/justine_case.jpeg" alt="Justine Case"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Justine Case</span>
+                                </div>
+                                <i id="hidden_icon5"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link6" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_6 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueTalk with Desi.</h3>
+                                <p class="m-0">Sep 26, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/nina_goodman.jpeg" alt="Nina Goodman"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Nina Goodman</span>
+                                </div>
+                                <i id="hidden_icon6"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link7" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_7 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-press">Press release</h6>
+                                <h3 class="title-article">Koin Rewards and TrueLayer work together to use Open Banking
+                                    for ethical loyalty rewards.</h3>
+                                <p class="m-0">Jul 25, 2019</p>
+                                <p>Finextra</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/robert_nickson.jpeg" alt="Robert Nickson"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Robert Nickson</span>
+                                </div>
+                                <i id="hidden_icon7"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-press" role="tabpanel" aria-labelledby="pills-press-tab">
+                    <div class="row mx-lg-n4">
+                            <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                                <a href="" id="article_link8" target="_blank"
+                                    class="h-100 d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="featured-img image_1 mb-4" title="image featured last article">
+        
+                                        </div>
+                                        <h6 class="cat-press">Press release</h6>
+                                        <h3>UK challenger bank Tandem partners with financial API provider for account aggregation.</h3>
+                                        <p class="m-0">Nov 27, 2019</p>
+                                        <p>Business insider</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/author/jessica_smith.jpg" alt="Jessica Smith"
+                                                class="rounded-circle mr-2" width="32" height="32">
+                                            <span>Jessica Smith</span>
+                                        </div>
+                                        <i id="hidden_icon8"
+                                            class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                                <a href="" id="article_link9" target="_blank"
+                                    class="h-100 d-flex justify-content-between flex-column">
+                                    <div>
+                                        <div class="featured-img image_7 mb-4" title="image featured last article">
+        
+                                        </div>
+                                        <h6 class="cat-press">Press release</h6>
+                                        <h3 class="title-article">Koin Rewards and TrueLayer work together to use Open Banking
+                                            for ethical loyalty rewards.</h3>
+                                        <p class="m-0">Jul 25, 2019</p>
+                                        <p>Finextra</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/author/robert_nickson.jpeg" alt="Robert Nickson"
+                                                class="rounded-circle mr-2" width="32" height="32">
+                                            <span>Robert Nickson</span>
+                                        </div>
+                                        <i id="hidden_icon9"
+                                            class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
+                <div class="row mx-lg-n4">
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link10" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_5 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-product">Product</h6>
+                                <h3 class="title-article">Say hello to our brand new Console!</h3>
+                                <p class="m-0">Sep 10, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/justine_case.jpeg" alt="Justine Case"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Justine Case</span>
+                                </div>
+                                <i id="hidden_icon10"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-insider" role="tabpanel" aria-labelledby="pills-insider-tab">
+                <div class="row mx-lg-n4">
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link11" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_2 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueHack #4 — Global Impact.</h3>
+                                <p class="m-0">Dec 11, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/cindy_lopez.jpeg" alt="Cindy Lopez"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Cindy Lopez</span>
+                                </div>
+                                <i id="hidden_icon11"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link12" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_3 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">What’s it like to be an Intern at TrueLayer?</h3>
+                                <p class="m-0">Dec 2, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/claire_johnson.jpeg" alt="Claire Johnson"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Claire Johnson</span>
+                                </div>
+                                <i id="hidden_icon12"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link13" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_4 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueLayer and Emma: Working together to power your Best
+                                    Financial Friend</h3>
+                                <p class="m-0">Nov 4, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/frank_simone.jpeg" alt="Frank Simone"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Frank Simone</span>
+                                </div>
+                                <i id="hidden_icon13"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 px-lg-4 mb-5 animated_card fadeIn">
+                        <a href="" id="article_link14" target="_blank"
+                            class="h-100 d-flex justify-content-between flex-column">
+                            <div>
+                                <div class="featured-img image_6 mb-4" title="image featured last article">
+
+                                </div>
+                                <h6 class="cat-insider">Insider</h6>
+                                <h3 class="title-article">TrueTalk with Desi.</h3>
+                                <p class="m-0">Sep 26, 2019</p>
+                                <p>Medium</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/author/nina_goodman.jpeg" alt="Nina Goodman"
+                                        class="rounded-circle mr-2" width="32" height="32">
+                                    <span>Nina Goodman</span>
+                                </div>
+                                <i id="hidden_icon14"
+                                    class="material-icons d-none pt-2 animated_icons fadeInLeft">arrow_forward</i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="animated_top_landing fadeInDown mt-5">
+            <nav class="navbar navbar-expand-lg navbar-light py-sm-5 py-4 container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html">
+                    <img src="assets/logo.svg" height="50" alt="logo TrueLayer">
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="material-icons text-white">
+                        menu
+                    </i>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+
+                    <!-- Navigation -->
+                    <ul class="navbar-nav ml-auto mt-lg-0 mt-3">
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarPublication" href="#">
+                                Publications
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarOurStory" href="#">
+                                Our story
+                            </a>
+                        </li>
+                        <li class="nav-item px-lg-4 py-lg-0 py-3">
+                            <a class="nav-link text-white" id="navbarBrandAssets" href="#">
+                                Brand assets
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Button -->
+                    <a class="navbar-btn btn btn-sm btn-outline-primary lift ml-lg-auto mr-lg-0 my-3 d-flex justify-content-center"
+                        href="#" target="_blank">
+                        Register
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </a>
+                    <a class="navbar-btn btn btn-sm btn-white lift ml-lg-3 mr-lg-0 my-3 d-flex justify-content-center"
+                        href="#" target="_blank">
+                        Log in
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </a>
+
+                </div>
+            </nav>
+        </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('#article_link1').hover(
+            function () { $('#hidden_icon1').toggleClass('d-none') }
+        )
+
+        $('#article_link2').hover(
+            function () { $('#hidden_icon2').toggleClass('d-none') }
+        )
+
+        $('#article_link3').hover(
+            function () { $('#hidden_icon3').toggleClass('d-none') }
+        )
+
+        $('#article_link4').hover(
+            function () { $('#hidden_icon4').toggleClass('d-none') }
+        )
+
+        $('#article_link5').hover(
+            function () { $('#hidden_icon5').toggleClass('d-none') }
+        )
+
+        $('#article_link6').hover(
+            function () { $('#hidden_icon6').toggleClass('d-none') }
+        )
+
+        $('#article_link7').hover(
+            function () { $('#hidden_icon7').toggleClass('d-none') }
+        )
+
+        $('#article_link8').hover(
+            function () { $('#hidden_icon8').toggleClass('d-none') }
+        )
+
+        $('#article_link9').hover(
+            function () { $('#hidden_icon9').toggleClass('d-none') }
+        )
+
+        $('#article_link10').hover(
+            function () { $('#hidden_icon10').toggleClass('d-none') }
+        )
+
+        $('#article_link11').hover(
+            function () { $('#hidden_icon11').toggleClass('d-none') }
+        )
+
+        $('#article_link12').hover(
+            function () { $('#hidden_icon12').toggleClass('d-none') }
+        )
+
+        $('#article_link13').hover(
+            function () { $('#hidden_icon13').toggleClass('d-none') }
+        )
+
+        $('#article_link14').hover(
+            function () { $('#hidden_icon14').toggleClass('d-none') }
+        )
+
+
+    </script>
+
+</body>
+
+</html>
