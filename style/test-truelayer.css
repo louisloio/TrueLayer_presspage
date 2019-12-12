@@ -10,6 +10,14 @@ body{
     min-height: 500px;
 }
 
+
+@media only screen and (max-width: 400px) {
+    .fix-mobile{
+        width: 100%;
+    }
+}
+
+
 footer{
     background: linear-gradient(135deg, #093554 0%,#058ed8 50%,#f4ebc9 100%);
 }
@@ -134,6 +142,7 @@ footer{
         overflow: hidden;
 
     }
+
     .image_1{
         background-image: url(../assets/img_articles/featured_img.png);
     }
