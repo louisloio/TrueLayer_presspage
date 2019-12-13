@@ -22,3 +22,10 @@ Following the Goals I identified 4 types of users with specifics needs and pain:
 Instead of proposing a Google news feed based on publishing date I split every articles on 3 categories to fix the needs of each personas identified. 
 <br><br>
 This method, allows user to directly switch into the topic is interested in, and facilitate is journey through the website to help him to find what is looking for quickly.
+
+### 3 categories
+• **Press **- All external articles.
+• **Insider **- All enterprise culture and story telling articles.
+• **Product **- All case study and new release.
+
+For internal user I propose a search bar to search articles titles or authors, and a "sort by" input to sort article into date, authors, or others criteria.
