@@ -87,13 +87,21 @@ Through my research in existing TrueLayer website I identified a few kink that c
 
 ### Gradient background
 The usage of gradient for large parts of your interface is pretty tricky cause of the accessibility contrast ratio between each side.
+<br><br>
+<img src="https://user-images.githubusercontent.com/29161010/70815587-ac9db180-1dc5-11ea-9cfd-dddb6ec348c3.png" alt="gradient">
+<br><br>
 
 ### Branding colour $Sun 
 The branding colour $sun is hard to use, indeed button $sun and text $sun do not reach the AA grade of the [WCAG]. So, it wont be readable for disabled users and it wont be confortable for any users.
+<br><br>
+<img src="https://user-images.githubusercontent.com/29161010/70815628-bcb59100-1dc5-11ea-9ecc-b5d6aed4ad55.png" alt="sun accessibility">
+<br><br>
 
 ### Typography
 Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason why I made the interface with Inter font:
-
+<br><br>
+<img src="https://user-images.githubusercontent.com/29161010/70815754-fc7c7880-1dc5-11ea-86bc-a7c425330004.png" alt="inter font">
+<br><br>
 During a long time designers were using same fonts for print and web but a lot of study described different user behaviour with a physical or digital products. So, the first Google font was initially made to perfectly fit on screen and later in 2015 Apple created the first dynamic font SF pro which is using every Opentype feature but also font feature specifically made for digital usage. Inter and more recently Helvetica now are following this trend and has implemented those feature into there font set.
 <br><br>
 The most interesting font feature is certainly the [Dynamic Metrics].
@@ -107,6 +115,9 @@ Today, as far as I know there are 3 fonts which is following this trend:
 
 ## Conclusion
 I hope you find this study interesting and I hope I will have the opportunity to go deeper in the details during face to face meeting.
+
+You can see the interface at this url:
+https://louisloio.github.io/TrueLayer_presspage/
 
 [WCAG]: https://contrastchecker.com/
 [Dynamic Metrics]: https://rsms.me/inter/dynmetrics/
