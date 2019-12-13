@@ -62,11 +62,16 @@ Using border-radius into elements will be perceive by users such as clickable el
 When the user hover an article 3 elements will be trigger:
 
 * The featured image of the article is elevating to immerse the user into the article.
-<img src="https://user-images.githubusercontent.com/29161010/70813662-c3420980-1dc1-11ea-895a-5a5b1cc147d6.gif" alt="elevation">
+  
+  <img src="https://user-images.githubusercontent.com/29161010/70813662-c3420980-1dc1-11ea-895a-5a5b1cc147d6.gif" alt="elevation">
+  
 * The title is underlying.
-<img src="https://user-images.githubusercontent.com/29161010/70813632-b7564780-1dc1-11ea-9f4f-43f51df49a92.png" alt="title underlying">
+  
+  <img src="https://user-images.githubusercontent.com/29161010/70813632-b7564780-1dc1-11ea-9f4f-43f51df49a92.png" alt="title underlying">
+  
 * An animated arrows appear to enhance the call to action.
-<img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" alt="arrow moving">
+  
+  <img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" alt="arrow moving">
 <br><br>
 
 All this design artefact allows the user to link every elements of one article and avoid confusion.
