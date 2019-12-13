@@ -14,7 +14,7 @@ Brief analysis definition of the problem.
 ## Personas
 Following the Goals I identified 4 types of users with specifics needs and pain:
 * __Clients__-is Looking for trust through visibility and reputation of TrueLayer brand.
-* __Job seeker __- is Looking for company culture and product articles to help to project himself into the next job he will apply for.
+* __Job seeker__- is Looking for company culture and product articles to help to project himself into the next job he will apply for.
 * __Media contact__ - is  looking at any articles to help him to write one. he needs press kit and guide lines to write about TrueLayer.
 * __Internal__ - is part of TrueLayer, he comes to have a look on his article and colleagues articles, he needs to quickly find a specific article.
 
