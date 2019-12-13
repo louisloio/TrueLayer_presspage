@@ -72,12 +72,15 @@ When the user hover an article 3 elements will be trigger:
 * An animated arrows appear to enhance the call to action.
   
   <img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" width="300" alt="arrow moving">
-<br><br>
 
 All this design artefact allows the user to link every elements of one article and avoid confusion.
+<br><br>
 
 ### Responsive interface
 To maximise the traffic on the page I adapt the design of the interface for all devises.
+<br><br>
+<img src="https://user-images.githubusercontent.com/29161010/70814590-b4f4ed00-1dc3-11ea-9f5f-ea9e88272dfc.png" width="300" alt="iphone">
+<br><br>
 
 ## Design System
 Through my research in existing TrueLayer website I identified a few kink that can be improve especially about accessibility. To keep TrueLayer branding experience entire, I didn't modify it but I think is important to notice it.
