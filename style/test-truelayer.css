@@ -33,6 +33,10 @@ footer{
     border-color: #fff;
 }
 
+.btn{
+    text-transform: uppercase !important;
+}
+
 .animated_card p{
     color: #aaaaaa;
 }
