@@ -44,34 +44,34 @@ The user land into the website and is able to read an article in one click we fe
 ### Immersive landing animation
 The top of the page is falling from the top to the bottom it unconsciously indicate to the user the way to read the interface.
 <br><br>
-<img src="https://user-images.githubusercontent.com/29161010/70812554-c2a87380-1dbf-11ea-8bb7-6bda873afe9d.gif" alt="animation top">
+<img src="https://user-images.githubusercontent.com/29161010/70812554-c2a87380-1dbf-11ea-8bb7-6bda873afe9d.gif" width="300" alt="animation top">
 <br><br>
 
 ### Contextuel illustration
 The illustration is representing a book into a laptop it enhance the context of digital magazine. When the user is browsing multiple TrueLayer website it create a semiological language to quickly recognise where  you are.
 <br><br>
-<img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" width="200" alt="illustration top">
+<img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" width="300" alt="illustration top">
 <br><br>
 
 ### Rounded cards
 Using border-radius into elements will be perceive by users such as clickable element, in fact, users equate round shape to their finger and want to touch it to trigger somethings. 
 <br><br>
-<img src="https://user-images.githubusercontent.com/29161010/70813158-f637cd80-1dc0-11ea-9791-f800cb561d34.png" alt="Rounded corner">
+<img src="https://user-images.githubusercontent.com/29161010/70813158-f637cd80-1dc0-11ea-9791-f800cb561d34.png" width="300" alt="Rounded corner">
 <br><br>
 ### Hover call to action
 When the user hover an article 3 elements will be trigger:
 
 * The featured image of the article is elevating to immerse the user into the article.
   
-  <img src="https://user-images.githubusercontent.com/29161010/70813662-c3420980-1dc1-11ea-895a-5a5b1cc147d6.gif" alt="elevation">
+  <img src="https://user-images.githubusercontent.com/29161010/70813662-c3420980-1dc1-11ea-895a-5a5b1cc147d6.gif" width="300" alt="elevation">
   
 * The title is underlying.
   
-  <img src="https://user-images.githubusercontent.com/29161010/70813632-b7564780-1dc1-11ea-9f4f-43f51df49a92.png" alt="title underlying">
+  <img src="https://user-images.githubusercontent.com/29161010/70813632-b7564780-1dc1-11ea-9f4f-43f51df49a92.png" width="300" alt="title underlying">
   
 * An animated arrows appear to enhance the call to action.
   
-  <img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" alt="arrow moving">
+  <img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" width="300" alt="arrow moving">
 <br><br>
 
 All this design artefact allows the user to link every elements of one article and avoid confusion.
