@@ -37,15 +37,16 @@ To build the prototype of TrueLayer press page, I used simple interaction flow a
 
 ### User journey
 The user land into the website and is able to read an article in one click we feature the most recent article to enhance its visibility.
-<img src="https://user-images.githubusercontent.com/29161010/70810954-a0f9bd00-1dbc-11ea-85f7-876af142b31c.png" alt="landing">
+<img src="https://user-images.githubusercontent.com/29161010/70810954-a0f9bd00-1dbc-11ea-85f7-876af142b31c.png" alt="user journey">
 
 
 ### Immersive landing animation
 The top of the page is falling from the top to the bottom it unconsciously indicate to the user the way to read the interface.
+<img src="https://user-images.githubusercontent.com/29161010/70812554-c2a87380-1dbf-11ea-8bb7-6bda873afe9d.gif" alt="animation top">
 
 ### Contextuel illustration
 The illustration is representing a book into a laptop it enhance the context of digital magazine. When the user is browsing multiple TrueLayer website it create a semiological language to quickly recognise where  you are.
-<img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" alt="landing">
+<img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" alt="illustration top">
 
 ### Rounded cards
 Using border-radius into elements will be perceive by users such as clickable element, in fact, users equate round shape to their finger and want to touch it to trigger somethings. 
