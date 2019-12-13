@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/29161010/70810937-99d2af00-1dbc-11ea-851f-69e5460e6d42.png" alt="landing">
+
 # Creating the TrueLayer Press Page - Product design perspective.
 
 > **Brief:** We would like you to create a new static page for our website called "Press". The page should collect links to all the articles out there that talk about TrueLayer. Your goal is to create a page that "shows" rather than "telling".<br><br>At TrueLayer we love to stay up to date with what is hot in web design and we like our brand to reflect this passion of Ours.
