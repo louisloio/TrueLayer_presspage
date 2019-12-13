@@ -64,7 +64,7 @@ Through my research in existing TrueLayer website I identified a few kink that c
 The usage of gradient for large parts of your interface is pretty tricky cause of the accessibility contrast ratio between each side.
 
 ### Branding colour $Sun 
-The branding colour $sun is hard to use, indeed button $sun and text $sun do not reach the AA grade of the WCAAG. So, it wont be readable for disabled users and it wont be confortable for any users.
+The branding colour $sun is hard to use, indeed button $sun and text $sun do not reach the AA grade of the [WCAG]. So, it wont be readable for disabled users and it wont be confortable for any users.
 
 ### Typography
 Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason why I made the interface with Inter font:
@@ -82,3 +82,5 @@ Today, as far as I know there are 3 fonts which is following this trend:
 
 ## Conclusion
 I hope you find this study interesting and I hope I will have the opportunity to go deeper in the details during face to face meeting.
+
+[WCAG]: https://contrastchecker.com/
