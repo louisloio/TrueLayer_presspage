@@ -71,7 +71,7 @@ Through my experience at Societe Generale I've made significant research on type
 
 During a long time designers were using same fonts for print and web but a lot of study described different user behaviour with a physical or digital products. So, the first Google font was initially made to perfectly fit on screen and later in 2015 Apple created the first dynamic font SF pro which is using every Opentype feature but also font feature specifically made for digital usage. Inter and more recently Helvetica now are following this trend and has implemented those feature into there font set.
 <br><br>
-The most interesting font feature is certainly the Dynamic Metrics.
+The most interesting font feature is certainly the [Dynamic Metrics].
 
 > There's of course no absolute right or wrong when it comes to expressing yourself with typography, but Inter Dynamic Metrics provides guidelines for how to best use Inter. You simply provide the optical font size, and the tracking and line height is calculated for you.
 
@@ -84,3 +84,4 @@ Today, as far as I know there are 3 fonts which is following this trend:
 I hope you find this study interesting and I hope I will have the opportunity to go deeper in the details during face to face meeting.
 
 [WCAG]: https://contrastchecker.com/
+[Dynamic Metrics]: https://rsms.me/inter/dynmetrics/
