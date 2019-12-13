@@ -78,7 +78,7 @@ The most interesting font feature is certainly the [Dynamic Metrics].
 Today, as far as I know there are 3 fonts which is following this trend:
 * [SF Pro] - Property of Apple Inc can't be used by any one else.
 * [Helevetica Now] - The most used font family you need to pay a licence to use it.
-* [Inter ]- Designed by [Rasmus Andersson] Figma Designer. the font is made for design systems and is Open source.
+* [Inter]- Designed by [Rasmus Andersson] Figma Designer. the font is made for design systems and is Open source.
 
 ## Conclusion
 I hope you find this study interesting and I hope I will have the opportunity to go deeper in the details during face to face meeting.
