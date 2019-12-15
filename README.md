@@ -6,55 +6,55 @@
 
 ## Problem
 Brief analysis definition of the problem.
-* TrueLayer want to show their expertise to enhance their visibility.
+* TrueLayer want to show their expertise to boost their visibility.
 
 ## Goals
 * Enhance connection with clients, partners and entrepreneurs.
-* Attracts job seekers. 
+* Attract job seekers. 
 * Facilitate the work of journalists to be more featured into press.
 
 ## Personas
-Following the Goals I identified 4 types of users with specifics needs and pain:
-* __Clients__-is Looking for trust through visibility and reputation of TrueLayer brand.
-* __Job seeker__- is Looking for company culture and product articles to help to project himself into the next job he will apply for.
-* __Media contact__ - is  looking at any articles to help him to write one. he needs press kit and guide lines to write about TrueLayer.
-* __Internal__ - is part of TrueLayer, he comes to have a look on his article and colleagues articles, he needs to quickly find a specific article.
+Following the goals, I identified 4 types of users with specific needs and pain:
+* __Client__- he is Looking for trust, through visibility and reputation of TrueLayer brand.
+* __Job seeker__- he  is Looking for company culture articles and product articles to project himself into the next job he will apply for.
+* __Media contact__ -  he is looking for some articles to help him to write one. He needs press kit and guidelines to write about TrueLayer.
+* __Internal__ - he is part of TrueLayer, he comes to have a look on his articles and colleagues articles, he needs to quickly find a specific article.
 
 ## Proposal
-Instead of proposing a Google news feed based on publishing date I split every articles on 3 categories to fix the needs of each personas identified. 
+Instead of proposing a Google news feed based on publishing date, I split every articles on 3 categories to fix the needs of each personas identified. 
 <br><br>
-This method, allows user to directly switch into the topic is interested in, and facilitate is journey through the website to help him to find what is looking for quickly.
+This method, allows user to directly switch into the topic is interested in and facilitate is journey in the website to help him to quickly find what is looking for.
 
 ### 3 categories
 * __Press__- All external articles.
 * __Insider__- All enterprise culture and story telling articles.
 * __Product__- All case study and new release.
 
-For internal user I propose a search bar to search articles titles or authors, and a "sort by" input to sort article into date, authors, or others criteria.
+For internal user, I suggest a search bar to enter articles titles or authors, and a "sort by" input to sort article into date, authors, or others criteria.
 
 ## Prototype
-To build the prototype of TrueLayer press page, I used simple interaction flow and focus my intention into micro interaction.
+To build the prototype of TrueLayer' press page, I used simple interaction flow to focus into micro-interactions.
 
 ### User journey
-The user land into the website and is able to read an article in one click we feature the most recent article to enhance its visibility.
+When the user accesses the website, he can read an article with a single click, the most recent article is highlighted to improve his visibility.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70810954-a0f9bd00-1dbc-11ea-85f7-876af142b31c.png" alt="user journey">
 <br><br>
 
 ### Immersive landing animation
-The top of the page is falling from the top to the bottom it unconsciously indicate to the user the way to read the interface.
+The top of the page is falling from the top to the bottom, it unconsciously indicate to the user the way to read the interface.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70812554-c2a87380-1dbf-11ea-8bb7-6bda873afe9d.gif" width="300" alt="animation top">
 <br><br>
 
 ### Contextuel illustration
-The illustration is representing a book into a laptop it enhance the context of digital magazine. When the user is browsing multiple TrueLayer website it create a semiological language to quickly recognise where  you are.
+The illustration represent a book into a laptop, it enhance the context of digital magazine. When the user browse multiple TrueLayer's website, it creates a semiological language to quickly recognise where he is.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" width="300" alt="illustration top">
 <br><br>
 
 ### Rounded cards
-Using border-radius into elements will be perceive by users such as clickable element, in fact, users equate round shape to their finger and want to touch it to trigger somethings. 
+Using border-radius into components will be perceive by users such as clickable area, in fact, users equate round shape to their finger and want to touch it to trigger somethings.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70813158-f637cd80-1dc0-11ea-9791-f800cb561d34.png" width="300" alt="Rounded corner">
 <br><br>
