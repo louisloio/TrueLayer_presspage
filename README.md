@@ -1,42 +1,44 @@
+
 <img src="https://user-images.githubusercontent.com/29161010/70810937-99d2af00-1dbc-11ea-851f-69e5460e6d42.png" alt="landing">
 
 # Creating the TrueLayer Press Page - Product design perspective.
 
+Through this article I tried to describe every questions I asked myself to build the TrueLayer press page. I voluntary reduced the research stage, indeed an efficient research study need to be driven by a team and with a full access of product usage data. So, I made some hypotheses about the problem and goals and pretended they were accurate.
+
 > **Brief:** We would like you to create a new static page for our website called "Press". The page should collect links to all the articles out there that talk about TrueLayer. Your goal is to create a page that "shows" rather than "telling".<br><br>At TrueLayer we love to stay up to date with what is hot in web design and we like our brand to reflect this passion of Ours.
 
 ## Problem
-Brief analysis definition of the problem.
 * TrueLayer want to show their expertise to boost their visibility.
 
 ## Goals
 * Enhance connection with clients, partners and entrepreneurs.
-* Attract job seekers. 
+* Attract job seekers. 
 * Facilitate the work of journalists to be more featured into press.
 
 ## Personas
-Following the goals, I identified 4 types of users with specific needs and pain:
-* __Client__- he is Looking for trust, through visibility and reputation of TrueLayer brand.
-* __Job seeker__- he  is Looking for company culture articles and product articles to project himself into the next job he will apply for.
-* __Media contact__ -  he is looking for some articles to help him to write one. He needs press kit and guidelines to write about TrueLayer.
-* __Internal__ - he is part of TrueLayer, he comes to have a look on his articles and colleagues articles, he needs to quickly find a specific article.
+Regarding the goals, I identified 4 types of users with specific needs and pain:
+* __Client__- They are looking for trust, through visibility and reputation of TrueLayer brand.
+* __Job seeker__- They are looking for company culture articles and product articles to project himself into the next job he will apply for.
+* __Media contact__ -  They are looking for some articles to help them to write one. They need press kit and guidelines to write about TrueLayer.
+* __Internal__ -  They are part of TrueLayer, they come to have a look on their articles and colleagues articles, they need to quickly find a specific article.
 
 ## Proposal
-Instead of proposing a Google news feed based on publishing date, I split every articles on 3 categories to fix the needs of each personas identified. 
+Instead of proposing a Google news feed based on publishing date, I split every articles on 3 categories to fix the needs of each personas identified. 
 <br><br>
-This method, allows user to directly switch into the topic is interested in and facilitate is journey in the website to help him to quickly find what is looking for.
+This method, allow users to directly switch into the topic, they are interested in and facilitate their journey in the website to help them to efficiency find what they are looking for.
 
 ### 3 categories
 * __Press__- All external articles.
 * __Insider__- All enterprise culture and story telling articles.
 * __Product__- All case study and new release.
 
-For internal user, I suggest a search bar to enter articles titles or authors, and a "sort by" input to sort article into date, authors, or others criteria.
+For internal users, I suggest a search bar to enter articles titles or authors, and a "sort by" input to sort article into date, authors, or others criteria.
 
 ## Prototype
 To build the prototype of TrueLayer' press page, I used simple interaction flow to focus into micro-interactions.
 
 ### User journey
-When the user accesses the website, he can read an article with a single click, the most recent article is highlighted to improve his visibility.
+When users access the website, they can read an article with a single click, the most recent article is highlighted to improve its visibility.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70810954-a0f9bd00-1dbc-11ea-85f7-876af142b31c.png" alt="user journey">
 <br><br>
@@ -48,7 +50,7 @@ The top of the page is falling from the top to the bottom, it unconsciously indi
 <br><br>
 
 ### Contextuel illustration
-The illustration represent a book into a laptop, it enhance the context of digital magazine. When the user browse multiple TrueLayer's website, it creates a semiological language to quickly recognise where he is.
+The illustration represent a book into a laptop, it enhance the context of digital magazine. When users browse multiple TrueLayer's products, it creates a semiological language to quickly recognise where they are.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70810969-a8b96180-1dbc-11ea-8e97-9167695ca43a.png" width="300" alt="illustration top">
 <br><br>
@@ -58,7 +60,7 @@ Using border-radius into components will be perceive by users such as clickable 
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70813158-f637cd80-1dc0-11ea-9791-f800cb561d34.png" width="300" alt="Rounded corner">
 <br><br>
-### Hover call to action
+### Hover call to action
 When the user hover an article, 3 elements will trigger.
 
 * The featured image of the article is elevating to immerse the user into the article.
@@ -73,7 +75,7 @@ When the user hover an article, 3 elements will trigger.
   
   <img src="https://user-images.githubusercontent.com/29161010/70813694-d05ef880-1dc1-11ea-92c3-131b1eaee7d8.gif" width="300" alt="arrow moving">
 
-All this design artefact allows the user to link every elements of one article and avoid confusion.
+All this design artefact allows users to link every elements of one article and avoid confusion.
 <br><br>
 
 ### Responsive interface
@@ -91,14 +93,14 @@ The usage of gradient for large parts of your interface is pretty tricky cause o
 <img src="https://user-images.githubusercontent.com/29161010/70815587-ac9db180-1dc5-11ea-9cfd-dddb6ec348c3.png" alt="gradient">
 <br><br>
 
-### Branding colour $Sun 
-The branding colour $sun is hard to use, indeed button $sun and text $sun do not reach the AA grade of the [WCAG]. So, it wont be readable for disabled users and it wont be confortable for any users.
+### Branding colour $Sun 
+The branding colour $sun is hard to use, indeed button $sun and text $sun do not reach the AA grade of the [WCAG]. So, it wont be readable for disabled users and it wont be comfortable for any users.
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70815628-bcb59100-1dc5-11ea-9ecc-b5d6aed4ad55.png" alt="sun accessibility">
 <br><br>
 
 ### Typography
-Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason I used Inter font to build the interface:
+Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason, I used Inter font to build the interface:
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70815754-fc7c7880-1dc5-11ea-86bc-a7c425330004.png" alt="inter font">
 <br><br>
@@ -108,9 +110,9 @@ The most interesting font feature is certainly the [Dynamic Metrics].
 
 > There's of course no absolute right or wrong when it comes to expressing yourself with typography, but Inter Dynamic Metrics provides guidelines for how to best use Inter. You simply provide the optical font size, and the tracking and line height is calculated for you.
 
-Today, as far as I know there are 3 fonts which is following this trend:
+Today, as far as I know there are 3 fonts which are reaching this level of performance:
 * [SF Pro] - Property of Apple Inc can't be used by any one else.
-* [Helevetica Now] - The most used font family you need to pay a licence to use it.
+* [Helevetica Now] - The most used font family. You need to pay a licence to use it.
 * [Inter]- Designed by [Rasmus Andersson] Figma Designer. the font is made for design systems and is Open source.
 
 ## Conclusion
