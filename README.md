@@ -59,13 +59,13 @@ Using border-radius into components will be perceive by users such as clickable 
 <img src="https://user-images.githubusercontent.com/29161010/70813158-f637cd80-1dc0-11ea-9791-f800cb561d34.png" width="300" alt="Rounded corner">
 <br><br>
 ### Hover call to action
-When the user hover an article 3 elements will be trigger:
+When the user hover an article, 3 elements will trigger.
 
 * The featured image of the article is elevating to immerse the user into the article.
   
   <img src="https://user-images.githubusercontent.com/29161010/70813662-c3420980-1dc1-11ea-895a-5a5b1cc147d6.gif" width="300" alt="elevation">
   
-* The title is underlying.
+* The title is underlined.
   
   <img src="https://user-images.githubusercontent.com/29161010/70813632-b7564780-1dc1-11ea-9f4f-43f51df49a92.png" width="300" alt="title underlying">
   
@@ -83,7 +83,7 @@ To maximise the traffic on the page I adapt the design of the interface for all 
 <br><br>
 
 ## Design System
-Through my research in existing TrueLayer website I identified a few kink that can be improve especially about accessibility. To keep TrueLayer branding experience entire, I didn't modify it but I think is important to notice it.
+Along my research in existing TrueLayer website, I identified a few kink that can be improve especially about accessibility. To keep TrueLayer branding experience entire, I didn't modify them but I think is important to notice them.
 
 ### Gradient background
 The usage of gradient for large parts of your interface is pretty tricky cause of the accessibility contrast ratio between each side.
@@ -98,11 +98,11 @@ The branding colour $sun is hard to use, indeed button $sun and text $sun do not
 <br><br>
 
 ### Typography
-Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason why I made the interface with Inter font:
+Through my experience at Societe Generale I've made significant research on typeface and I wanted to share with you the outcome of this research. this is the reason I used Inter font to build the interface:
 <br><br>
 <img src="https://user-images.githubusercontent.com/29161010/70815754-fc7c7880-1dc5-11ea-86bc-a7c425330004.png" alt="inter font">
 <br><br>
-During a long time designers were using same fonts for print and web but a lot of study described different user behaviour with a physical or digital products. So, the first Google font was initially made to perfectly fit on screen and later in 2015 Apple created the first dynamic font SF pro which is using every Opentype feature but also font feature specifically made for digital usage. Inter and more recently Helvetica now are following this trend and has implemented those feature into there font set.
+During a long time designers were using same fonts for print and web but a lot of study described different user behaviour with a physical or digital products. So, the first Google font was initially made to perfectly fit on screen and later in 2015 Apple created the first dynamic font SF pro which is using every Opentype feature but also font feature specifically made for digital usage. Inter and more recently Helvetica now are following this trend and has implemented those feature into there font kit.
 <br><br>
 The most interesting font feature is certainly the [Dynamic Metrics].
 
