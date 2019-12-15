@@ -3,7 +3,7 @@
 
 # Creating the TrueLayer Press Page - Product design perspective.
 
-Through this article I tried to describe every questions I asked myself to build the TrueLayer press page. I voluntary reduced the research stage, indeed an efficient research study need to be driven by a team and with a full access of product usage data. So, I made some hypotheses about the problem and goals and pretended they were accurate.
+Through this article I tried to describe every questions I asked myself to build the TrueLayer press page. I voluntary reduced the research stage, indeed an efficient research study need to be driven by an internal team and with a full access of product usage data. So, I made some hypotheses about the problem and goals and pretended they were accurate.
 
 > **Brief:** We would like you to create a new static page for our website called "Press". The page should collect links to all the articles out there that talk about TrueLayer. Your goal is to create a page that "shows" rather than "telling".<br><br>At TrueLayer we love to stay up to date with what is hot in web design and we like our brand to reflect this passion of Ours.
 
